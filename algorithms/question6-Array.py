@@ -10,8 +10,12 @@ ex: [5, 4, 0, 3, 4, 1]
 ******
 """
 
-
 def printHist(arr):
+    """
+    print histogram for array
+    :param arr:
+    :return:
+    """
     for i in range(max(arr)):
         max_val = max(arr)
         for j in range(len(arr)):
