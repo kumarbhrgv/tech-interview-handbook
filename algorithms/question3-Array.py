@@ -32,6 +32,10 @@ class ArrayPaginator(object):
             return -1
 
     def has_next_page(self):
+        """
+        check for next page
+        :return:
+        """
         index = self.curr_page + 1
         if index < self.total_pages:
             return True
@@ -40,7 +44,6 @@ class ArrayPaginator(object):
 
 
 if __name__ == "__main__":
-
     arrayPaginator = ArrayPaginator([1,2,3,4,5,6],2)
     while arrayPaginator.has_next_page():
         print(arrayPaginator.get_next_page())

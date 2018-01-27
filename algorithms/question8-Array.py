@@ -1,4 +1,9 @@
 def longest_increasing_array(arr):
+    """
+    longest sub array in increasing order
+    :param arr:
+    :return: maximum length of sub array
+    """
     if not arr:
         return 0
     if len(arr) == 1:
