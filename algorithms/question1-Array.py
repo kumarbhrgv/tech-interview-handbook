@@ -4,6 +4,8 @@ import unittest
 Iterator class for list
 Implemented has_next(),next(),remove
 """
+
+
 class ArrayIterator:
     def __init__(self,array):
         """

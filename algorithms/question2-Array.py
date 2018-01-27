@@ -31,6 +31,3 @@ class TestSubsetSum(unittest.TestCase):
         self.assertEqual(isSubsetSum(self.arr, len(self.arr), self.sum), True)
         self.sum = 0
         self.assertEqual(isSubsetSum(self.arr, len(self.arr), self.sum), True)
-
-    #def test(self):
-        #self.assertIsNotNone(isSubsetSum())
