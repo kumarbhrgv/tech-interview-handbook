@@ -7,6 +7,12 @@ find the product of the elements of the array except the element at that index.
 
 
 def selective_product(arr,index):
+    """
+    return selective product according to problem statement
+    :param arr:
+    :param index:
+    :return:
+    """
     prod = 1
     for i in range(len(arr)):
         if i != index :
